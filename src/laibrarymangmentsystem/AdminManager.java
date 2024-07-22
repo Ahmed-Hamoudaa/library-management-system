@@ -114,7 +114,7 @@ public class AdminManager
         System.out.println("    3- Remove   book                      ");
         System.out.println("    4- Search   book                      ");
         System.out.println("    5- Update   book                      ");
-        System.out.println("    6- Borrowed books                     ");
+        System.out.println("    6- View Borrowed books                ");
         System.out.println("    7- Exit                               ");
         System.out.println();
         System.out.println("      Enter your choice                   ");
