@@ -72,7 +72,7 @@ public class CustomerManager
     static void CustomerAuthontication() 
     {
         System.out.println("====== Customer Authontication Menu ======");
-        System.out.println("    1- Sign in                            ");
+        System.out.println("    1- Sign up                            ");
         System.out.println("    2- Log in                             ");
         System.out.println("    3- Exit                               ");
         System.out.println();
@@ -158,11 +158,11 @@ public class CustomerManager
         System.out.println("Date :"+now.format(dateFormatter));
         System.out.println("Time :"+now.format(timeFormatter));
         System.out.println("    Item Name          |    Price");
-        System.out.println("======================================");
         for(Book item :bill)
         {
             item.info2();
         }
+        System.out.println("======================================");
     }
     
     //__________________________________________________________________________

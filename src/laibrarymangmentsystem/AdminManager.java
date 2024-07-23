@@ -77,7 +77,7 @@ public class AdminManager
     static void adminAuthontication() 
     {
         System.out.println("======== Admin Authontication Menu =======");
-        System.out.println("    1- Sign in                            ");
+        System.out.println("    1- Sign up                            ");
         System.out.println("    2- Log in                             ");
         System.out.println("    3- Exit                               ");
         System.out.println();
